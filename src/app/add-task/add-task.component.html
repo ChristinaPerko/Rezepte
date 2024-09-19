@@ -1,0 +1,43 @@
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+
+    <div class="form-control">
+  
+      <label for="text">Speise</label>
+  
+      <input
+  
+        type="text"
+  
+        name="text"
+  
+        [(ngModel)]="text"
+  
+        id="text"
+  
+        placeholder="Füge eine neue Speise ein"
+  
+      />
+  
+    </div>
+  
+    <div class="form-control form-control-check">
+  
+      <label for="reminder">Erinnerung einstellen</label>
+  
+      <input
+  
+        type="checkbox"
+  
+        name="reminder"
+  
+        [(ngModel)]="reminder"
+  
+        id="reminder"
+  
+      />
+  
+    </div>
+  
+    <input type="submit" value="Aufgabe speichern" class="btn btn-block" />
+  
+  </form>

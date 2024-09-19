@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "text": "Ofenbratl mit Knödel und Sauerkraut",
+      "reminder": true
+    },
+    {
+      "id": "3",
+      "text": "Pofesen mit Powidl und Staubzucker",
+      "reminder": true
+    },
+    {
+      "id": "4",
+      "text": "Hasenöhrl mit Marmelade und Staubzucker",
+      "reminder": true
+    },
+    {
+      "id": 1,
+      "text": "Buchteln mit Vanillesoße"
+    },
+    {
+      "id": 0,
+      "text": "Nudeln mit Schwammerlsoße",
+      "reminder": true
+    }
+  ]
+}

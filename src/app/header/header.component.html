@@ -1,0 +1,13 @@
+<header class="header">
+
+  <h1>Oma Emma's Lieblingsspeisen</h1>
+
+  <app-button color="#3498db"
+
+        color="{{ showAddTask ? 'red' : 'black' }}"
+
+        label="{{ showAddTask ? 'Schließen' : 'Neue Speise hinzufügen' }}"
+
+        (btnClick)="toggleAddTask()"></app-button>
+
+</header>
